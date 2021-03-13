@@ -1,0 +1,84 @@
+/**/
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 58px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav h3 {
+    font-family: 'KIA';
+    font-weight: 400;
+    padding-left: 30px;
+    margin: 18px 0;
+}
+
+#highlight {
+    font-weight: 900;
+}
+.nav ul {
+    margin: 18px 0;
+}
+.nav li {
+    list-style: none;
+    display: inline;
+    align-self: center;
+    padding-right: 30px;
+    font-size: 0.8em;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+/*content*/
+
+#bg-video {
+    position: fixed;
+    bottom: 0;
+    top: 57.995px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.product-description {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    font-family: 'Noto Sans KR', sans-serif;
+    bottom: 20%;
+    left: 5%;
+}
+
+.product-description h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 18px;
+    margin: 0;
+}
+
+#goBtn {
+    color: rgb(228, 226, 226);
+    border: none;
+    background: rgb(66, 172, 52);
+    width: 100px;
+    height: 30px;
+    float: right;
+    letter-spacing: 0.7px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
