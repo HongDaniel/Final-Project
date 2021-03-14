@@ -3,11 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .frame {
     justify-content: center;
-    align-items: center;
 }
-
 
 /*header*/
 
@@ -18,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    border-bottom: 1.5px solid black;
+    border-bottom: 1px solid rgba(0,0,0,0.7);
 
 }
 
@@ -57,54 +56,86 @@ a {
 /*sign-up*/
 
 .signup {
-    margin-top: 50px;
+    display: flex;
+    margin-top: 90px;
     justify-content: center;
-    width: 700px;
+    align-items: center;
     }
 
 .signup-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-family: 'Noto Sans KR', sans-serif;
-    width: 539px;
-    border: 1px solid black;
-    text-align: center;
+    width: 900px;
+    height: 700px;
+    align-items: center;
+    text-align: center;    
 }
 
 .first {
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: -1px;
     font-weight: 150;
-    width: 240px;
-    padding-bottom: 25px;
+    width: 500px;
+    padding-bottom: 35px;
     border-bottom: 0.5px solid #ccc;
+    margin-bottom: 0;
     
 }
 
 .two-kind {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 240px;
+    flex-direction: column;
+    width: 500px;
+
 }
 
 .two-kind p{
-    font-size: .5px;
-    font-weight: 500;
-    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    width: 500px;
+    height: 70px;
     letter-spacing: -0.3px;
-    padding: 7px 9px 7px 9px ;
-    border-radius: 4%;
+    border-radius: 2%;
 }
 
 .second {
-    margin-right: 15px;
     background: rgb(20, 57, 145);
     color: white;
+    margin-top: 35px;
+    margin-bottom: 0;
+
 }
 
 .third {
     background: #fee500;
     color: black;
+    margin-bottom: 50px;
 }
+
+.signup-box ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    width: 500px;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+.li{
+    font-size: 16px;
+}
+
+.login2{
+    margin-right: 30px;
+    font-size: 16px;
+    padding: 7px 15px;
+    color: rgb(20, 57, 145);
+    border: 0.5px solid rgb(20, 57, 145);
+}
+
